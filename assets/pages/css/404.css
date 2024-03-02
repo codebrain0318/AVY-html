@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 150px;
+    position: relative;
+    height: 100vh;
+    background-color: #d3d3d3;
+}
+
+.image {
+    width: auto;
+    height: 85%;
+}
+
+.not-found {
+    padding-left: 250px;
+}
+
+.hero h1 {
+    font-weight: bolder;
+    font-size: 13em;
+    color: #1c1c1c;
+}
+
+.hero h2 {
+    font-weight: bolder;
+    font-size: 4em;
+    color: #1c1c1c;
+}
+
+.hero-mobile {
+    margin: 0;
+    padding: 225px 50px;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #d3d3d3;
+}
+
+.not-found-mobile {
+    padding: 0;
+}
+
+.hero-mobile h1 {
+    font-weight: bolder;
+    font-size: 8em;
+    color: #1c1c1c;
+}
+
+.hero-mobile h2 {
+    font-weight: bolder;
+    font-size: 3em;
+    color: #1c1c1c;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #ff3600;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: #ff3600;
+    border: 1px solid #ff3600;
+  }
+  
+  .button-not-found {
+    display: flex;
+    justify-content: flex-start;
+  }
